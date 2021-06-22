@@ -52,9 +52,10 @@ public class TestSteps {
 		System.out.println("I am in " + "Success message is displayed");
 	}
 
-	@Then("I print the title of the page")
+	@Then("I print the title of the page and close the browser")
 	public void print_the_title_of_the_page() {
 		System.out.println("I am in selenium page with title : " + driver.getTitle());
+		driver.close();
 	}
 
 }

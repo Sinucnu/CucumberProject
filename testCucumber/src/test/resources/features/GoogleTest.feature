@@ -6,5 +6,5 @@ Feature: Google page test
   Scenario: Google page test
     Given I access google page
     And I search for selenium word and click on first link
-    Then I print the title of the page
+    Then I print the title of the page and close the browser
    
